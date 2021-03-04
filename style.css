@@ -1,0 +1,45 @@
+nav {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #C4A484;
+}
+
+nav * {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+.nav-main p {
+  float: left;
+}
+
+.nav-main ul {
+  float: right;
+}
+
+a:link {
+    color: #202020;
+    text-decoration: none;
+  }
+
+#intro {
+    margin-bottom: 0%;
+    padding: 20px;
+}
+
+#intro h1 {
+    font-size: 50px;
+}
+
+#intro p {
+    font-size: 30px;
+    font-weight: 400;
+}
