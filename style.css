@@ -1,9 +1,15 @@
+@font-face {
+  font-family: InterFont;
+  src: url(Inter-VariableFont_slnt,wght.ttf);
+}
+
 nav {
   height: 50px;
   line-height: 50px;
   padding-left: 15px;
   padding-right: 15px;
   background-color: #C4A484;
+  margin-top: 20px;
 }
 
 nav * {
@@ -11,6 +17,8 @@ nav * {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  text-decoration: none;
+  font-weight: bolder;
 }
 
 nav li {
@@ -26,20 +34,46 @@ nav li {
 }
 
 a:link {
-    color: #202020;
-    text-decoration: none;
-  }
+  color: #202020;
+}
 
 #intro {
     margin-bottom: 0%;
     padding: 20px;
+    margin-top: 150px;
 }
 
 #intro h1 {
     font-size: 50px;
+    margin: 0%;
+    font-family: InterFont;
 }
 
 #intro p {
     font-size: 30px;
     font-weight: 400;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 450px;
+}
+
+button {
+  background-color: #C4A484;
+  font-size: 12px;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+button a:link {
+  text-decoration: none;
+  color: white;
+}
+
+#intro-bottom-text p {
+  font-size: 12px;
+  padding-top: 5px;
+  margin: 0;
 }
