@@ -96,3 +96,14 @@ input[type=text], input[type=password] {
 #log-in-box {
   font-family: InterFont;
 }
+
+button[type=submit] {
+  margin: 0px;
+  margin-top: 4px;
+}
+
+#log-in-box h1 {
+  margin-top: 10px;
+  margin-bottom: 8px;
+  margin-left: 5px;
+}
