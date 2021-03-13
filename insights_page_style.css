@@ -1,0 +1,288 @@
+@font-face {
+    font-family: InterFont;
+    src: "";
+}
+h1 {
+    font-family: 'Molle', cursive;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h6 {
+    font-family: 'Lato', sans-serif;
+}
+p {
+    font-family: 'Roboto Slab', serif;
+}
+
+label {
+    font-family: 'Lato', sans-serif;
+}
+/* ------------------------------- SITE CONTENT CONTAINERS ------------------------------*/ 
+.site_content {
+    display : flex;
+}
+.content_col {
+    display : flex;
+    flex-direction: column;
+    width : calc(50%);
+    padding: 10px ;
+}
+
+/* -------------------- JOURNAL ENTRIES CONTAINER/ITEMS ------------------ */
+
+#insights_journal_entries {
+    margin: 5px;
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.rect.journal_entries {
+    width : calc(100%);
+    height : 10px;
+    background-color: #7C7575;
+}
+
+.rect.entry_divider {
+    width : calc(100%);
+    height: 1px;
+    background-color: silver;
+}
+
+.journal_entry_text {
+    text-align: center;
+}
+
+#key_journal_entries_header {
+    text-align: center;
+}
+
+/* ------------------- NAV BAR ITEMS ---------------------- */
+.site_content.header {
+    width: calc(98%);
+    height: 40px;
+    padding: calc(1%);
+    display : flex;
+    background: #C4A484;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+}
+  
+a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    height: calc(100%);
+    font-family: 'Lato', sans-serif;
+
+}
+
+/* Change the color of links on hover */
+.ul_nav_links li:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+.ul_nav_links li.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* ----------------------- MOOD BAR ----------------------- */
+
+.circle.active {
+    height: 20px;
+    width: 20px;    
+    background-color: rgb(63, 228, 5);
+    border-radius: 50%;
+    margin: 10px;
+  }
+
+.circle.inactive {
+    height: 20px;
+    width: 20px;    
+    background-color: #B2C1AC;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#mood_circles {
+    align-items: center;
+    display : flex;
+}
+/* -------------- MOOD TEXT ANALYSIS ---------------------*/
+#mood_word_analysis {
+    text-align: center;
+}
+
+img {
+    width : calc(20%);
+}
+/* ----------------- INPUT --------------------- */
+#input_entry {
+    text-align: center;
+    padding : 10px;
+}
+
+#new_reflection {
+    width : calc(100%);
+}
+/*#insights_all_page {
+    display: block;
+}
+
+#insights_page_content{
+    background-color: orange;
+    margin-left: 100px;
+}
+
+#insights_content {
+    display : block;
+}
+
+
+
+#side_rectangle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: calc(100%);
+    background: #B6A1A1;
+    place-items: center;
+} 
+
+.rect_notches {
+    position: absolute;
+    width: 70px;
+    height: 10px;
+    background: #E5E5E5;
+} 
+
+#insights_site_title {
+    background: #E5E5E5;
+    padding: 20px;
+    margin-left: 70px;
+}
+
+.insights_top_nav_bar {
+    top: 20px;
+    right: 0;
+    width: calc(100%);
+    height: 40px;
+    padding: 20px;
+    display : flex;
+    background: #C4A484;
+    align-items: center;
+
+}
+
+#insights_page_content {
+    display: block;
+}
+.content_col {
+    position: relative;
+    display : block;
+    float: left;
+
+}
+
+
+#insights_page_content {
+    margin-top: 120px;
+    display : flex;
+}
+
+.active_circle {
+    height: 20px;
+    width: 20px;    
+    background-color: rgb(63, 228, 5);
+    border-radius: 50%;
+    float: left;
+    margin: 10px;
+  }
+
+
+#insights_nav_bar_links {
+    float: right;
+    display: flex;
+    background :rgb(63, 228, 5);
+    align-items: center;
+    position: relative;
+}
+
+#insights_nav_bar_links * {
+    display: inline;
+    float:right;
+
+}
+
+#insights_nav_bar_links ul {
+    float:right;
+    display: inline;
+    overflow: hidden;
+
+}
+
+.left_col_elements {
+    position: absolute;
+    float: right;
+}
+
+.insights_nav_bar_element {
+    padding: 30px;
+}
+.mood_circles {
+    display: flex;
+}
+#insights_site_title {
+    display: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+}
+
+.content_col {
+    position: relative;
+}
+
+
+
+
+#mood_word_analysis {
+    text-align: center;
+    background-color: saddlebrown;
+}
+
+.key_journal_entries {
+    float: top;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: left;
+} */
