@@ -93,7 +93,7 @@ input[type=text], input[type=password] {
   box-sizing: border-box;
 }
 
-#log-in-box {
+#log-in-box, #create-acc-box {
   font-family: InterFont;
 }
 
@@ -102,8 +102,10 @@ button[type=submit] {
   margin-top: 4px;
 }
 
-#log-in-box h1 {
-  margin-top: 10px;
+#log-in-box h1, #create-acc-box h1 {
+  margin-top: 15px;
   margin-bottom: 8px;
   margin-left: 5px;
 }
+
+/* create acc page css */
