@@ -38,26 +38,30 @@ a:link {
   color: #202020;
 }
 
+a:visited{
+  color: #202020;
+}
+
 #intro {
-    margin-bottom: 0%;
-    padding: 20px;
-    margin-top: 150px;
+  margin-bottom: 0%;
+  padding: 20px;
+  margin-top: 150px;
 }
 
 #intro h1 {
-    font-size: 50px;
-    margin: 0%;
-    font-family: InterFont;
+  font-size: 50px;
+  margin: 0%;
+  font-family: InterFont;
 }
 
 #intro p {
-    font-size: 30px;
-    font-weight: 400;
-    padding-bottom: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 450px;
-    font-family: InterFont;
+  font-size: 30px;
+  font-weight: 400;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 450px;
+  font-family: InterFont;
 }
 
 button {
@@ -68,6 +72,8 @@ button {
   border-radius: 10px;
   margin-top: 10px;
   font-family: InterFont;
+  text-decoration: none;
+  color: white;
 }
 
 button a:link {
@@ -93,7 +99,7 @@ input[type=text], input[type=password] {
   box-sizing: border-box;
 }
 
-#log-in-box, #create-acc-box {
+#log-in-box, #create-acc-box, #forgot-pw-box {
   font-family: InterFont;
 }
 
@@ -102,7 +108,7 @@ button[type=submit] {
   margin-top: 4px;
 }
 
-#log-in-box h1, #create-acc-box h1 {
+#log-in-box h1, #create-acc-box h1, #forgot-pw-box h1 {
   margin-top: 15px;
   margin-bottom: 8px;
   margin-left: 5px;
