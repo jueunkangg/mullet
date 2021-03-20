@@ -1,24 +1,26 @@
-@font-face {
+/*@font-face {
     font-family: InterFont;
     src: "";
-}
+} */
 h1 {
+    margin-left: 20px;
     font-family: 'Molle', cursive;
+
 }
 
 h2 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Molle', cursive;
 }
 
 h6 {
     font-family: 'Lato', sans-serif;
 }
 p {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 label {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 /* ------------------------------- SITE CONTENT CONTAINERS ------------------------------*/ 
 .site_content {
@@ -90,7 +92,7 @@ a {
     text-decoration: none;
     color: black;
     height: calc(100%);
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -109,16 +111,16 @@ a {
 /* ----------------------- MOOD BAR ----------------------- */
 
 .circle.active {
-    height: 20px;
-    width: 20px;    
+    height: 25px;
+    width: 25px;    
     background-color: rgb(63, 228, 5);
     border-radius: 50%;
     margin: 10px;
   }
 
 .circle.inactive {
-    height: 20px;
-    width: 20px;    
+    height: 25px;
+    width: 25px;    
     background-color: #B2C1AC;
     border-radius: 50%;
     margin: 10px;
@@ -127,6 +129,7 @@ a {
 #mood_circles {
     align-items: center;
     display : flex;
+    justify-content: space-evenly;
 }
 /* -------------- MOOD TEXT ANALYSIS ---------------------*/
 #mood_word_analysis {

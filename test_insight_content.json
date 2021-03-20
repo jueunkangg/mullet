@@ -1,0 +1,22 @@
+{"entries":[
+    { "date":"... something about automating the datetime???", "text":"I had a really crappy day today.", "rating": 1},
+    { "date":"...", "text":"I had an amazing day today.", "rating": 10},
+    { "date":"...", "text":"Today was okay.", "rating": 5 }
+  ] ,
+
+  "moods":[
+    { "rating": [1], "mood":"Down in the dumps", "reminder": "Hang in there. Don't be afraid to reach out for help. Remind yourself of the things in life that you are thankful for"},
+    { "rating": [2, 3], "mood":"Unhappy", "reminder": "Hang in there. Don't be afraid to reach out for help. Remind yourself of the things in life that you are thankful for"},
+    { "rating": [4, 5, 6], "mood":"Okay", "reminder": "You're not feeling too good, but you're not feeling too down either." }, 
+    { "rating": [7, 8], "mood":"Happy", "reminder": "Overall, you’ve been in a great mood this week. Continue to do the things you enjoy doing!" },
+    { "rating": [9, 10], "mood":"Great", "reminder": "You feel on top of the world right now! Take note of what you've been doing to be in such a great mental state." }
+  ],
+  "reflections":[
+    { "date":"... something about automating the datetime???", "text":"I'm not sure why I'm feeling this way.", "ranking_avg": 0 },
+    { "date":"...", "text":"I've been trying to look at the world with a new outlook and it's been paying off.", "ranking_avg": 0 },
+    { "date":"...", "text":"I've been feeling kind of indifferent all semester.", "ranking_avg": 0}
+  ]}
+
+  
+
+  
