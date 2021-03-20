@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  h1 {
+    color: rgb(77, 55, 55);
+    font-family: 'Molle', cursive;
+    text-align: center;
+    font-size: 1em;
+  }
+  
+  h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  p1 {
+      color: #000000;
+      text-align:left;
+      text-align:top;
+      margin-top: 1cm;
+      margin-right: 10cm;
+      font-size: 2em;
+      font-le: italic;
+      font-weight: bold;
+      text-overflow: ellipsis; 
+      overflow: hidden; 
+      white-space: nowrap;
+      display: inline-block;
+  }
+
+  p2 {
+      color: #000000;
+      text-align:left;
+      text-align:top;
+      margin-top: 5cm;
+      margin-right: 10cm;
+      font-size: 2em;
+      font-le: italic;
+      font-weight: bold;
+      text-overflow: ellipsis; 
+      overflow: hidden; 
+      white-space: wrap;
+      display: inline-block;
+  }
+
+  p3 {
+      color: #000000;
+      margin-left: 13cm;
+      text-align: right;
+      font-size: 2em;
+      font-le: italic;
+      font-weight: bold;
+      text-overflow: ellipsis; 
+      overflow: hidden; 
+      white-space: wrap;
+  }
+
+  p4 {
+      color: #000000;
+      text-align:right;
+      text-align:bottom;
+      margin-bottom:1cm;
+      margin-left: 13cm;
+      font-size: 5 cm;
+      font-le: italic;
+      font-weight: bold;
+      text-overflow: ellipsis; 
+      overflow: hidden; 
+      white-space: nowrap;
+  }
+
+  input {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-overflow: ellipsis; 
+    overflow: hidden; 
+    white-space: nowrap;
+    display: inline-block;
+  }
+
+    img {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        width: 150px;
+        background-color: rgb(193, 235, 193);
+    }
+
+
+    ul {
+      list-le-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #C4A484;
+    }
+    
+    li {
+      float: right;
+    }
+    
+    li a {
+      display: block;
+      color: #ffffff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color:#C4A484;
+    }
+
+    button {
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+  
