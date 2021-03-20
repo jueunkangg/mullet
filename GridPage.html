@@ -5,126 +5,143 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <link href="StyleSheet.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Molle:ital@1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Molle:ital@1&family=Roboto+Slab:wght@300&display=swap" 
+rel="stylesheet">
 <body>
+  <div class="structure">
+    <div class="nav">
+      <h1 class="header">Mood Tracker</h1>
+      <ul class="menu">
+        <li class="menubutton"><a href="">Profile</a></li>
+        <li class="menubutton"><a href="">Moodboard</a></li>
+        <li class="menubutton"><a href="">Insights</a></li>
+        <li class="menubutton"><a href="">Post</a></li>
+      </ul>
+    </div>
 
-<div class="row">
-  <div class="column left">
-    <h1>Mood Tracker</h1>
-    <div class="grid">
-      <div class="days">
-        <h3>Month: </h3>
-        <div id="day1"> 
-          <p style="text-align: center;">1</p>
+    <div class="row">
+      <div class="column left">
+        <div class="grid">
+          <div class="days">
+            <h3 id="monthHeader">Month: </h3>
+            <div id="day1" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">1</p>
+            </div>
+            <div id="day2" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">2</p>
+            </div>
+            <div id="day3" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">3</p>
+            </div>
+            <div id="day4" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">4</p>
+            </div>
+            <div id="day5" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">5</p>
+            </div>
+            <div id="day6" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">6</p>
+            </div>
+            <div id="day7" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">7</p>
+            </div>
+            <div id="day8" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">8</p>
+            </div>
+            <div id="day9" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">9</p>
+            </div>
+            <div id="day10" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">10</p>
+            </div>
+            <div id="day11" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">11</p>
+            </div>
+            <div id="day12" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">12</p>
+            </div>
+            <div id="day13" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">13</p>
+            </div>
+            <div id="day14" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">14</p>
+            </div>
+            <div id="day15" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">15</p>
+            </div>
+            <div id="day16" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">16</p>
+            </div>
+            <div id="day17" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">17</p>
+            </div>
+            <div id="day18" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">18</p>
+            </div>
+            <div id="day19" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">19</p>
+            </div>
+            <div id="day20" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">20</p>
+            </div>
+            <div id="day21" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">21</p>
+            </div>
+            <div id="day22" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">22</p>
+            </div>
+            <div id="day23" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">23</p>
+            </div>
+            <div id="day24" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">24</p>
+            </div>
+            <div id="day25" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">25</p>
+            </div>
+            <div id="day26" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">26</p>
+            </div>
+            <div id="day27" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">27</p>
+            </div>
+            <div id="day28" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">28</p>
+            </div>
+            <div id="day29" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">29</p>
+            </div>
+            <div id="day30" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">30</p>
+            </div>
+            <div id="day31" onclick="clickedDay(this)"> 
+              <p style="text-align: center;">31</p>
+            </div>
+          </div>
         </div>
-        <div id="day2"> 
-          <p style="text-align: center;">2</p>
-        </div>
-        <div id="day3"> 
-          <p style="text-align: center;">3</p>
-        </div>
-        <div id="day4"> 
-          <p style="text-align: center;">4</p>
-        </div>
-        <div id="day5"> 
-          <p style="text-align: center;">5</p>
-        </div>
-        <div id="day6"> 
-          <p style="text-align: center;">6</p>
-        </div>
-        <div id="day7"> 
-          <p style="text-align: center;">7</p>
-        </div>
-        <div id="day8"> 
-          <p style="text-align: center;">8</p>
-        </div>
-        <div id="day9"> 
-          <p style="text-align: center;">9</p>
-        </div>
-        <div id="day10"> 
-          <p style="text-align: center;">10</p>
-        </div>
-        <div id="day11"> 
-          <p style="text-align: center;">11</p>
-        </div>
-        <div id="day12"> 
-          <p style="text-align: center;">12</p>
-        </div>
-        <div id="day13"> 
-          <p style="text-align: center;">13</p>
-        </div>
-        <div id="day14"> 
-          <p style="text-align: center;">14</p>
-        </div>
-        <div id="day15"> 
-          <p style="text-align: center;">15</p>
-        </div>
-        <div id="day16"> 
-          <p style="text-align: center;">16</p>
-        </div>
-        <div id="day17"> 
-          <p style="text-align: center;">17</p>
-        </div>
-        <div id="day18"> 
-          <p style="text-align: center;">18</p>
-        </div>
-        <div id="day19"> 
-          <p style="text-align: center;">19</p>
-        </div>
-        <div id="day20"> 
-          <p style="text-align: center;">20</p>
-        </div>
-        <div id="day21"> 
-          <p style="text-align: center;">21</p>
-        </div>
-        <div id="day22"> 
-          <p style="text-align: center;">22</p>
-        </div>
-        <div id="day23"> 
-          <p style="text-align: center;">23</p>
-        </div>
-        <div id="day24"> 
-          <p style="text-align: center;">24</p>
-        </div>
-        <div id="day25"> 
-          <p style="text-align: center;">25</p>
-        </div>
-        <div id="day26"> 
-          <p style="text-align: center;">26</p>
-        </div>
-        <div id="day27"> 
-          <p style="text-align: center;">27</p>
-        </div>
-        <div id="day28"> 
-          <p style="text-align: center;">28</p>
-        </div>
-        <div id="day29"> 
-          <p style="text-align: center;">29</p>
-        </div>
-        <div id="day30"> 
-          <p style="text-align: center;">30</p>
+              
+      </div>
+      <div class="column right">
+        <div class="key">
+          <h3 style="text-align: center;">Rate Your Mood</h3>
+          <ul>
+            <li>10 - Best mood EVER!</li>
+            <li>9 - Amazing mood!</li>
+            <li>8 - Great mood</li>
+            <li>7 - Pretty good mood</li>
+            <li>6 - Okay mood</li>
+            <li>5 - meh</li>
+            <li>4 - Pretty bad mood</li>
+            <li>3 - Bad mood</li>
+            <li>2 - Terrible mood</li>
+            <li>1 - THIS SUCKS.</li>
+          </ul>
         </div>
       </div>
     </div>
-          
   </div>
-  <div class="column right">
-  	<div class="key">
-      <h3 style="text-align: center;">Rate Your Mood</h3>
-      <ul>
-      	<li>10 - Best mood EVER!</li>
-        <li>9 - Amazing mood!</li>
-        <li>8 - Great mood</li>
-        <li>7 - Pretty good mood</li>
-        <li>6 - Okay mood</li>
-        <li>5 - meh</li>
-        <li>4 - Pretty bad mood</li>
-        <li>3 - Bad mood</li>
-        <li>2 - Terrible mood</li>
-        <li>1 - THIS SUCKS.</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
+  <script src="script.js"></script>
 </body>
 </html>

@@ -1,32 +1,79 @@
-* {
-    box-sizing: border-box;
+  h1 {
+    font-family: 'Molle', cursive;
+  }
+
+  h3 {
+    font-family: 'Molle', cursive;
+    font-family: 'Roboto Slab', serif;
+  }
+
+  li {
+    font-family: 'Molle', cursive;
+    font-family: 'Roboto Slab', serif;
+  }
+
+  p{
+    font-family: 'Molle', cursive;
+    font-family: 'Roboto Slab', serif;
   }
   
+  .structure {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #C4A484;
+  }
+
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menubutton {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+  }
+  
+  .menubutton :hover{
+    background-color: aquamarine;
+  }
+
+  a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+   }
+
   .column {
-    float: left;
     height: 100vh;
     padding: 10px;
   }
   
   .left {
     width: 60%;
-    background-color:#aaa;
   }
   
   .right {
     width: 40%;
-    background-color:#bbb;
-  }
-  
-  .row:after {
-    display: grid;
-    grid-auto-flow: column;
   }
   
   .grid {
-    background-color: green;
+    background-color: #C4A484;
     width: 90%;
-    height: 90vh;
+    height: 80vh;
     margin-left: auto;
     margin-right: auto;
   }
@@ -37,7 +84,7 @@
   }
 
   .key {
-    margin-top: 200px;
+    margin-top: 150px;
   }
 
   .rowDays1 {
@@ -335,6 +382,16 @@
   }
   
   #day30 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  #day31 {
     background-color: yellow;
     float: left;
     width: 75px;
