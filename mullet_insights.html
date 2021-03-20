@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="insights_page_style.css" />
+    <title>Your Mood Insights</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Molle:ital@1&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dr+Sugiyama&family=Lato&family=Lobster&family=Molle:ital@1&family=Pacifico&family=Raleway&family=Rock+Salt&display=swap" rel="stylesheet">
+<script src = "insights.js"></script>
+</head>
+  <body>
+    <div class = "site_content header">
+        <h1 id = "insights_site_title">Mood Insights</h1>
+          <ul class = "ul_nav_links">
+            <li><a href="...">Journal</a></li>
+            <li><a href="...">Insights</a></li>
+            <li><a href="...">My Account</a></li>
+            <li><a href="...">About</a></li>
+          </ul>
+      
+    </div>
+    <div class = "site_content cols">
+      <div class = "content_col left">
+        <div id = "mood_container">
+          <div class= "left_col_elements" id="mood_bar">
+            <h6>Your average mood rating over the past 7 days:</h6>
+            <div id = "mood_circles">
+            <div class="circle active"></div>
+            <div class="circle active"></div>
+            <div class="circle active"></div>
+            <div class="circle active"></div>
+            <div class="circle active"></div>
+            <div class="circle active"></div>
+            <div class="circle active"></div>
+            <div class="circle inactive"></div>
+            <div class="circle inactive"></div>
+            <div class="circle inactive"></div>
+            <p>7.0</p>
+            </div>
+          </div> 
+        </div>
+        <div class="left_col_elements" id="mood_word_analysis">
+          <h2>Happy</h2>
+          <p>Overall, you’ve been in a great mood 
+          this week. Continue to do the things you enjoy doing!</p>
+          <img src = "C:\Users\Ally\Downloads\moodcactusoasis.png" alt = "mood cactus">
+        </div>
+        <div id = "mood_graph">
+          <p>Mood graph</p> 
+        </div>
+      </div>
+      <div class = "content_col right">
+        <div id = "insights_journal_entries">
+          <h2 id = "key_journal_entries_header">Key Journal Entries</h2>
+          <div class = "rect journal_entries"></div>
+          <span id="journal_entries_divider"></span>
+          <div class = "journal_entry">
+            <!--<p class="journal_entry_date">July 1, 2002</p>
+            <p class = "journal_entry_text">I had a really good day...</p>-->
+          </div>
+          <div class = "rect entry_divider"></div>
+          <div class = "journal_entry">
+            <!--<p class="journal_entry_date">July 11, 2002</p>
+            <p class = "journal_entry_text">I had a really bad day...</p>-->
+          </div>
+          <script type = 'text/javascript'>
+            function load() {
+                          var mydata = JSON.parse(data);
+                          var div = document.getElementsByClassName('journal_entry');
+                          for(var i = 0; i < 2; i += 1)
+                          {
+                              div[i].innerHTML = "<p class='journal_entry_date' id=" + i + ">" + mydata['entries'][i]['date'] + "</p>" + "<br>" + 
+                              "<p class= 'journal_entry_text' id=" + i + ">" +  mydata.entries[i].text + "</p>" + "<br>";
+                              document.write("hello");
+                          }
+                      }
+          </script>
+        </div>
+        <div id = "input_entry">
+          <form action="/action_page.php">
+            <label for="entry-text">Why do I feel this way?</label><br>
+            <textarea name="message" rows="15" cols="90"></textarea>
+            <br><br>
+            <input type="submit">
+          </form>
+        </div>
+      </div>
+  </div>    
+  </body>
+</html>
+
