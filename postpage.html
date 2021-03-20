@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+
+ul.a {
+  list-style-position: inside;
+  list-style-image: initial;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul.b {
+  list-style-position: inside;
+}
+    .message {
+        visibility: hidden;
+      }
+      #test:valid+.message {
+        visibility: hidden;
+      }
+div {
+  width: 300px; 
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+div {
+ width: 500px;
+ font-style: bold; 
+ border: 5px solid rgb(82, 53, 53);
+}
+
+div.a {
+  word-wrap: break-word;
+  padding-right: 0;
+  padding-top: 5;
+  font-weight: bold;
+  font-family: 'Molle', cursive;
+}
+
+div.b {
+  word-wrap: break-word;
+  font-weight: bold;
+  border: 5px solid rgb(82, 53, 53);
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+li {
+    float: right;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+li a:hover {
+    display: block;
+    padding: 8px;
+}
+</style>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <ul>
+        <li><a href="#login">Login</a></li>
+        <li><a href="#mood tracker">Mood Tracker</a></li>
+        <li><a href="#insights">Insights</a></li>
+        <li><a href="#post page">Post Page</a></li>
+      </ul> 
+
+    <h1>Welcome Back! How are you feeling?</h1>
+        <h2> Today Is: </h2>
+        <button type ="button" onclick="displayDate()">Show Date</button>
+        <p id="showDate"></p>
+        <script>
+          function displayDate() {
+            document.getElementById("showDate").innerHTML = Date();
+          }
+        </script>
+        <div class = "b">My mood is currently</div>
+          <button onclick="numberFunc()">Enter Mood Rating</button>
+          <script>
+            function numberFunc() {
+            var moodRating = document.createElement("INPUT");
+            moodRating.setAttribute("type", "number");
+            moodRating.setAttribute("value", "0");
+            document.body.appendChild(moodRating);
+
+            var submit = document.createElement("INPUT");
+            submit.setAttribute("type", "submit");
+            document.body.appendChild(submit);
+
+            }
+          </script>
+
+        <button onclick="moodFunc()">Type An Adj. Describing Mood</button>
+        <script>
+          function moodFunc() {
+          var moodDescrp = document.createElement("INPUT");
+          moodDescrp .setAttribute("type", "string");
+          moodDescrp .setAttribute("value", "");
+          document.body.appendChild( moodDescrp);
+
+          var submit = document.createElement("INPUT");
+          submit.setAttribute("type", "submit");
+          document.body.appendChild(submit);
+          }
+        </script>
+
+        <div class = "b">The color that best matches my mood: <span id = "colorOutput"></span></div>  
+        <input type = "color" id="colorInputColor">
+        <input type = "button" id="colorButton" value = "Mood Color"
+        onclick="changeColor()">
+        <script>
+        function changeColor() {
+          let color = document.getElementById('colorInputColor').value;
+        }
+        </script>
+
+        <ul class = "a"> <li>Mullet: Bullet Your Mood</li>
+        </ul>
+        <img src="https://previews.123rf.com/images/aratehortua/aratehortua1904/aratehortua190400269/123613692-vector-cartoon-cute-happy-cactus-icon-isolated.jpg">
+        <img src="https://ih1.redbubble.net/image.1013657890.2720/flat,750x,075,f-pad,750x1000,f8f8f8.jpg">
+        <img src="https://natashamatthewsdotcom.files.wordpress.com/2016/02/catuswithtude.jpg">
+        <img src="https://i.gifer.com/Orx.gif">
+        <img src="https://media1.giphy.com/media/ifXV44AEW1OcQGh9kw/giphy.gif">
+        <img src="https://media0.giphy.com/media/ZdUWV6bnCuhK0i7OPO/giphy.gif">
+</body>
+</html>
