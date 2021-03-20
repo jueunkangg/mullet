@@ -1,0 +1,402 @@
+  h1 {
+    font-family: 'Molle', cursive;
+  }
+
+  h3 {
+    font-family: 'Molle', cursive;
+    font-family: 'Roboto Slab', serif;
+  }
+
+  li {
+    font-family: 'Molle', cursive;
+    font-family: 'Roboto Slab', serif;
+  }
+
+  p{
+    font-family: 'Molle', cursive;
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  .structure {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #C4A484;
+  }
+
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menubutton {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+  }
+  
+  .menubutton :hover{
+    background-color: aquamarine;
+  }
+
+  a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+   }
+
+  .column {
+    height: 100vh;
+    padding: 10px;
+  }
+  
+  .left {
+    width: 60%;
+  }
+  
+  .right {
+    width: 40%;
+  }
+  
+  .grid {
+    background-color: #C4A484;
+    width: 90%;
+    height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .days {
+    margin-left: auto;
+    margin-right: auto; 
+  }
+
+  .key {
+    margin-top: 150px;
+  }
+
+  .rowDays1 {
+    margin: auto;
+  }
+  
+  #day1 {
+    background-color: blue;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #day2 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  #day3 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  #day4 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  #day5 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  #day6 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  #day7 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  #day8 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  #day9 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  #day10 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  #day11 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  #day12 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  #day13 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #day14 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  #day15 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #day16 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #day17 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #day18 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #day19 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #day20 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #day21 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #day22 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #day23 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #day24 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #day25 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #day26 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #day27 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #day28 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #day29 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #day30 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  #day31 {
+    background-color: yellow;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
