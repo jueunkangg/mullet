@@ -20,7 +20,7 @@ body {
       margin-top: 1cm;
       margin-right: 10cm;
       font-size: 2em;
-      font-style: italic;
+      font-le: italic;
       font-weight: bold;
       text-overflow: ellipsis; 
       overflow: hidden; 
@@ -35,7 +35,7 @@ body {
       margin-top: 5cm;
       margin-right: 10cm;
       font-size: 2em;
-      font-style: italic;
+      font-le: italic;
       font-weight: bold;
       text-overflow: ellipsis; 
       overflow: hidden; 
@@ -48,7 +48,7 @@ body {
       margin-left: 13cm;
       text-align: right;
       font-size: 2em;
-      font-style: italic;
+      font-le: italic;
       font-weight: bold;
       text-overflow: ellipsis; 
       overflow: hidden; 
@@ -62,7 +62,7 @@ body {
       margin-bottom:1cm;
       margin-left: 13cm;
       font-size: 5 cm;
-      font-style: italic;
+      font-le: italic;
       font-weight: bold;
       text-overflow: ellipsis; 
       overflow: hidden; 
@@ -87,7 +87,7 @@ body {
 
 
     ul {
-      list-style-type: none;
+      list-le-type: none;
       margin: 0;
       padding: 0;
       overflow: hidden;
