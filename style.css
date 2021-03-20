@@ -1,0 +1,117 @@
+@font-face {
+  font-family: InterFont;
+  src: url(Inter-VariableFont_slnt,wght.ttf);
+}
+
+nav {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #C4A484;
+  margin-top: 20px;
+}
+
+nav * {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: InterFont;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+.nav-main p {
+  float: left;
+}
+
+.nav-main ul {
+  float: right;
+}
+
+a:link {
+  color: #202020;
+}
+
+a:visited{
+  color: #202020;
+}
+
+#intro {
+  margin-bottom: 0%;
+  padding: 20px;
+  margin-top: 150px;
+}
+
+#intro h1 {
+  font-size: 50px;
+  margin: 0%;
+  font-family: InterFont;
+}
+
+#intro p {
+  font-size: 30px;
+  font-weight: 400;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 450px;
+  font-family: InterFont;
+}
+
+button {
+  background-color: #C4A484;
+  font-size: 12px;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-family: InterFont;
+  text-decoration: none;
+  color: white;
+}
+
+button a:link {
+  text-decoration: none;
+  color: white;
+}
+
+#intro-bottom-text p {
+  font-size: 12px;
+  padding-top: 5px;
+  margin: 0;
+  font-family: InterFont;
+}
+
+/* login page css */
+
+input[type=text], input[type=password] {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#log-in-box, #create-acc-box, #forgot-pw-box {
+  font-family: InterFont;
+}
+
+button[type=submit] {
+  margin: 0px;
+  margin-top: 4px;
+}
+
+#log-in-box h1, #create-acc-box h1, #forgot-pw-box h1 {
+  margin-top: 15px;
+  margin-bottom: 8px;
+  margin-left: 5px;
+}
+
+/* create acc page css */
