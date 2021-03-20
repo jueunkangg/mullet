@@ -5,6 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
     <title>mullet journal</title>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script> 
+    <script type="text/javascript"> 
+      function sendEmail() { 
+        Email.send({ 
+          Host: "smtp.gmail.com", 
+          Username: "jueunkang593@gmail.com", 
+          Password: "Csc95kyh93", 
+          To: 'jueunkang593@gmail.com', 
+          From: "jueunkang593@gmail.com", 
+          Subject: "Sending Email using javascript", 
+          Body: "Well that was easy!!", 
+        }) 
+          .then(function (message) { 
+            alert("mail sent successfully") 
+          }); 
+      } 
+    </script> 
   </head>
 
   <body>
@@ -25,7 +43,7 @@
         <p>Enter your email below and we will send you instructions to reset your password.</p>
         <input type="text" placeholder="Email Address" name="email" required>
 
-        <button type="reset">
+        <button type="reset" onclick="sendEmail()">
             Reset Password
         </button><br>
 
